@@ -256,3 +256,7 @@ endsnippet
 snippet ir "isRequired" w
 isRequired,
 endsnippet
+
+snippet "(^([ \t]*)\.(\w+))" "Class name" br
+`!p snip.rv = match.group(2)`<div className="`!p snip.rv = match.group(3)`">$0</div>
+endsnippet
